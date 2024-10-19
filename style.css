@@ -17,6 +17,12 @@ a {
   text-decoration: none;
 }
 
+button{
+  border: 0;
+  border-radius: 4px;
+  padding: 4px 24px;
+}
+
 body div{
   padding: 0 64px;
 }
@@ -30,13 +36,17 @@ body div{
   flex-direction: column;
 }
 
-.dark-background {
+.dark-blue-background {
   background-color: #1f2937;
 }
 
 .text{
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.light-blue-background{
+  background-color: #3882f6;
 }
 
 /* IDS */
@@ -52,4 +62,25 @@ body div{
 
 #links{
   gap: 16px;
+}
+
+#hero{
+  padding: 96px;
+}
+
+#hero-text{
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+#hero-image{
+  background-color: grey;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+
+#hero div{
+  flex: 1;
 }
