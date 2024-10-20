@@ -81,6 +81,23 @@ body div{
   align-content: center;
 }
 
+#testimonial{
+  background-color: #e5e7eb;
+  padding: 64px 256px;
+}
+
+#quote{
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+#attribution{
+  text-align: right;
+  font-weight: bold;
+}
+
 #hero div{
   flex: 1;
 }
